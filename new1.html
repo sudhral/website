@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>MIRIFIC PHARMACEUTICAL PRIVATE LIMITED</title>
+  <style>
+    /* Animated rainbow background */
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(-45deg, #ff4e50, #1cd8d2, #f9d423, #6a11cb);
+      background-size: 400% 400%;
+      animation: gradientBG 15s ease infinite;
+      color: white;
+    }
+
+    @keyframes gradientBG {
+      0% { background-position: 0% 50%; }
+      50% { background-position: 100% 50%; }
+      100% { background-position: 0% 50%; }
+    }
+
+    .container {
+      text-align: center;
+      padding: 60px 20px;
+    }
+
+    .company-name {
+      font-size: 3rem;
+      font-weight: 900;
+      color: #fff;
+      text-shadow: 3px 3px 8px rgba(0,0,0,0.4);
+      margin-bottom: 50px;
+    }
+
+    .mission-vision {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 40px;
+      margin-bottom: 60px;
+    }
+
+    .card {
+      background: rgba(255, 255, 255, 0.15);
+      border-radius: 20px;
+      padding: 35px 25px;
+      width: 320px;
+      backdrop-filter: blur(8px);
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      border: 2px solid rgba(255,255,255,0.3);
+    }
+
+    .card:hover {
+      transform: scale(1.05);
+      box-shadow: 0 15px 40px rgba(0,0,0,0.4);
+    }
+
+    .card h2 {
+      color: #ffd700;
+      margin-bottom: 15px;
+    }
+
+    .card p {
+      font-size: 1rem;
+      line-height: 1.6;
+      color: #ffffffde;
+    }
+
+    .tab-container {
+      display: flex;
+      justify-content: center;
+      gap: 40px;
+      flex-wrap: wrap;
+    }
+
+    .tab {
+      padding: 18px 45px;
+      border-radius: 50px;
+      background: linear-gradient(135deg, #f7971e, #ffd200);
+      color: #000;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 1.2rem;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+      transition: all 0.3s ease-in-out;
+      border: none;
+      transform: rotateX(10deg) rotateY(-10deg);
+    }
+
+    .tab:hover {
+      background: linear-gradient(135deg, #00c6ff, #0072ff);
+      color: #fff;
+      transform: rotateX(0deg) rotateY(0deg) scale(1.05);
+    }
+
+    @media (max-width: 600px) {
+      .card {
+        width: 100%;
+      }
+
+      .tab {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 15px;
+      }
+
+      .tab-container {
+        flex-direction: column;
+        align-items: center;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1 class="company-name">MIRIFIC PHARMACEUTICAL PRIVATE LIMITED</h1>
+      <h2 class="slogan">Working wonders</h2>
+    </header>
+
+    <section class="mission-vision">
+      <div class="card">
+        <h2>Our Mission</h2>
+        <p>To deliver innovative and high-quality pharmaceutical products that improve the health and lives of people globally.</p>
+      </div>
+      <div class="card">
+        <h2>Our Vision</h2>
+        <p>To be a global leader in healthcare by consistently setting standards in research, quality, and sustainability.</p>
+      </div>
+    </section>
+
+    <div class="tab-container">
+      <a href="https://drive.google.com/file/d/1vm1YhLT0KeDT9AbPqmzRl53R7sl7bQUp/view?usp=drive_link" class="tab">📞 Contact Us</a>
+      <a href="C:/Users/Bibhash%20Kumar/Downloads/new3.html" class="tab">💊 Products</a>
+    </div>
+  </div>
+</body>
+</html>
